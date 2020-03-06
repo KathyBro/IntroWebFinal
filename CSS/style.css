@@ -3,3 +3,35 @@ body {
     background-color: lightyellow;
     background-blend-mode: lighten;
 }
+
+nav {
+    background-color: #ffcacb;
+    font-size: 20px;
+}
+
+a:link {
+    color: #4DFFF9;
+}
+
+a:visited {
+    color: #946E48;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+a:active {
+    color: #FFFADE;
+}
+
+#logoDiv {
+    text-align: right;
+    margin-right: 10%;
+}
+
+#border {
+    background-image: url('../Images/nav-border.png');
+    background-repeat: repeat-x;
+    height: 50px;
+}
