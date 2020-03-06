@@ -3,3 +3,39 @@ body {
     background-color: lightyellow;
     background-blend-mode: lighten;
 }
+
+#topNav {
+    background-color: #ffcacb;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#topNav a:link {
+    color: #4DFFF9;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#topNav a:visited {
+    color: #946E48;
+}
+
+#topNav a:hover {
+    color: #FFCACB;
+    background-color: #FFFADE;
+}
+
+#topNav a:active {
+    color: #FFFADE;
+}
+
+#logoDiv {
+    text-align: right;
+    margin-right: 10%;
+}
+
+#border {
+    background-image: url('../Images/nav-border.png');
+    background-repeat: repeat-x;
+    height: 50px;
+}
