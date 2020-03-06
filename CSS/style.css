@@ -4,24 +4,28 @@ body {
     background-blend-mode: lighten;
 }
 
-nav {
+#topNav {
     background-color: #ffcacb;
     font-size: 20px;
+    padding: 10px;
 }
 
-a:link {
+#topNav a:link {
     color: #4DFFF9;
+    text-decoration: none;
+    padding: 10px;
 }
 
-a:visited {
+#topNav a:visited {
     color: #946E48;
 }
 
-a:hover {
-    color: #FFF;
+#topNav a:hover {
+    color: #FFCACB;
+    background-color: #FFFADE;
 }
 
-a:active {
+#topNav a:active {
     color: #FFFADE;
 }
 
