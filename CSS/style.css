@@ -1,0 +1,5 @@
+body {
+    background-image: url('../Images/PossibleBackground.jpg');
+    background-color: lightyellow;
+    background-blend-mode: lighten;
+}
