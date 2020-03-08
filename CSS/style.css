@@ -3,3 +3,40 @@ body {
     background-color: lightyellow;
     background-blend-mode: lighten;
 }
+th{
+    height: 100px;
+}
+.th1{
+   background-image: url("../Images/Ice\ Cream\ Scoops/Mint.png");
+   background-size: cover;
+   margin-bottom: -100mm;
+   color: #00ffff;
+   height: 100px;
+   width: 100px;
+}
+.th1:hover{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
+}
+.th2{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
+    background-size: cover;
+    margin-bottom: -100mm;
+    color: white;
+    height: 100px;
+    width: 100px;
+ }
+ .th2:hover{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Mint.png");
+    color: #00ffff;
+ }
+ .th3{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
+    background-size: cover;
+    margin-bottom: -100mm;
+    height: 100px;
+    width: 100px;
+ }
+ .th3:hover{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
+    color: white;
+ }
