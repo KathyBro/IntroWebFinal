@@ -39,3 +39,45 @@ body {
     background-repeat: repeat-x;
     height: 50px;
 }
+
+.slideshow {
+    max-width: 1000px;
+    position: center;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    text-align: center;
+}
+
+.slide img {
+    height: 400px;
+    width: auto;
+}
+
+#dots {
+    text-align: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #00fff7;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.active, .dot:hover {
+    background-color: #FFF;
+    border: 1px solid #00FFF7;
+}
+
+#sellerText {
+    text-align: center;
+}
