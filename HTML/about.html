@@ -3,16 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    
+    <title>About</title>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 
-    
+    <link href='../CSS/style.css' rel='stylesheet'/>
+    <script src='../Scripts/script.js'></script>
 </head>
 <body>
-    
+    <div id='center'>
+        <div id='logoDiv'>
+            <img src='../Images/CompanyLogo.PNG' id='logo'/>
+        </div>
+        <nav id='topNav'>
+            <a href="index.html">Home</a>
+            <a href='specs.html'>Product Specs</a>
+            <a href='contact.html'>Contact Us</a>
+        </nav>
+        <div id='border'></div>
+        <div id='Text'>
+            <div id='AboutUsTitleText'>
+                <h1>About Us</h1>
+            </div>
+            <div id="AboutUsText">
+            <p>
+                Do you ever get tired of eating your favorite ice cream too quickly and getting painful brain
+                freezes? Well look no further because the On-The-Go Group has the product for you! Introducing quIck-bowls!
+                These delicious ice cream bowls will never give you a brain freeze again! We have a wide variey of flavors
+                ranging from plain ole vanilla  to the wacky ice cream flavor of your dreams. So next time you want to 
+                hurry and finish up that ice cream before work, or win that ice cream eating contest, quIck-bowls are the way to go!
+            </p>
+        </div>
+        <div id='graphCanvas'>
+        <div class='graphA' id='graphText'><p>Happy IceCream</p></div>
+        <div class='graphA'><canvas id='barGraph' width="860px" height="500px" style="border:1px solid #000000;"> 
+            Fastest Eater
+            </canvas>
+            <p></p>
+            <script src='aboutscript.js'></script>
+        </div>
+
+        
 </body>
 </html>
