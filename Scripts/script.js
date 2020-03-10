@@ -1,5 +1,6 @@
 $(document).ready(() => {
     let slideNumber = 0;
+    changeSlide();
 
     $('#dot0').on('click', function() {
         slideNumber = 0;
