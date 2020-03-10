@@ -8,19 +8,21 @@ table{
     margin-right: auto;
 }
 .th1{
-   background-image: url("../Images/Ice\ Cream\ Scoops/Mint.png");
+   background-image: url("../Images/Ice\ Cream\ Scoops/strawberry.png");
    background-size: cover;
    margin-bottom: -10mm;
    display: inline-block;
    position: absolute;
    padding-top: 10mm;
+   box-sizing: border-box;
    text-align: center;
-   color: black;
+   color: #00ffff;
    height: 100px;
-   width: 140px;
+   width: 100px;
 }
 .th1:hover{
     background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
+    color: black;
 }
 .th2{
     background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
@@ -29,29 +31,38 @@ table{
     display: inline-block;
     position: absolute;
     padding-top: 10mm;
+    box-sizing: border-box;
     text-align: center;
     color: white;
     height: 100px;
-    width: 140px;
+    width: 100px;
 }
- .th2:hover{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Mint.png");
-    color: Black;
+.th2:hover{
+    background-image: url("../Images/Ice\ Cream\ Scoops/strawberry.png");
+    color:#00ffff;
 }
- .th3{
+.th3{
     background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
     background-size: cover;
-    margin-bottom: -10mm;
+    margin-bottom: -15mm;
     display: inline-block;
     position: absolute;
+    box-sizing: border-box;
     padding-top: 10mm;
     text-align: center;
     height: 100px;
-    width: 140px;
+    width: 100px;
 }
- .th3:hover{
+.th3:hover{
     background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
     color: white;
+}
+
+#qback{
+    padding-top: 50mm;
+    padding-bottom: 50mm;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #topNav {
