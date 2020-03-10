@@ -59,10 +59,16 @@ table{
 }
 
 #qback{
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#qCenter {
     padding-top: 50mm;
     padding-bottom: 50mm;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 #topNav {
