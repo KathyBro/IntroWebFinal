@@ -148,3 +148,7 @@ table{
 #sellerText {
     text-align: center;
 }
+
+.fontBigger {
+    font-size: 19px;
+}
