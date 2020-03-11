@@ -2,6 +2,7 @@ body {
     background-image: url('../Images/PossibleBackground.jpg');
     background-color: lightyellow;
     background-blend-mode: lighten;
+    font-family: 'Fredoka One', cursive;
 }
 
 #topNav {
@@ -63,13 +64,12 @@ body {
 .dot {
     height: 15px;
     width: 15px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
     background-color: #00fff7;
     border: 1px solid #fff;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
     cursor: pointer;
 }
 
