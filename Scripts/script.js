@@ -47,4 +47,3 @@ $(document).ready(() => {
     setInterval(indexChangeAuto, 10000);
     
 });
-

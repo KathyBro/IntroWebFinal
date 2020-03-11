@@ -181,7 +181,7 @@ table{
 }
 
 .th1{
-    background-image: url("../Images/Ice\ Cream\ Scoops/strawberry.png");
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
     background-size: cover;
     margin-bottom: -10mm;
     display: inline-block;
@@ -189,16 +189,12 @@ table{
     padding-top: 10mm;
     box-sizing: border-box;
     text-align: center;
-    color: #00ffff;
+    color: black;
     height: 100px;
     width: 100px;
- }
- .th1:hover{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
-    color: black;
  }
 .th2{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
     background-size: cover;
     margin-bottom: -10mm;
     display: inline-block;
@@ -206,14 +202,10 @@ table{
     box-sizing: border-box;
     padding-top: 10mm;
     text-align: center;
-    color: white;
+    color: black;
     height: 100px;
     width: 100px;
  }
- .th2:hover{
-    background-image: url("../Images/Ice\ Cream\ Scoops/strawberry.png");
-    color:#00ffff;
-}
 .th3{
     background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
     background-size: cover;
@@ -226,7 +218,3 @@ table{
     height: 100px;
     width: 100px;
 }
-.th3:hover{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
-    color: white;
- }
