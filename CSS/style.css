@@ -3,60 +3,6 @@ body {
     background-color: lightyellow;
     background-blend-mode: lighten;
 }
-table{
-    margin-left: auto;
-    margin-right: auto;
-}
-tr:hover{
-    background-color: #00ffff;
-    color: black;
-}
-.th1{
-   background-image: url("../Images/Ice\ Cream\ Scoops/Mint.png");
-   background-size: cover;
-   margin-bottom: -10mm;
-   display: inline-block;
-   position: absolute;
-   padding-top: 10mm;
-   text-align: center;
-   color: black;
-   height: 100px;
-   width: 140px;
-}
-.th1:hover{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
-}
-.th2{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
-    background-size: cover;
-    margin-bottom: -10mm;
-    display: inline-block;
-    position: absolute;
-    padding-top: 10mm;
-    text-align: center;
-    color: white;
-    height: 100px;
-    width: 140px;
-}
- .th2:hover{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Mint.png");
-    color: Black;
-}
- .th3{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
-    background-size: cover;
-    margin-bottom: -10mm;
-    display: inline-block;
-    position: absolute;
-    padding-top: 10mm;
-    text-align: center;
-    height: 100px;
-    width: 140px;
-}
- .th3:hover{
-    background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
-    color: white;
-}
 
 #topNav {
     background-color: #ffcacb;
@@ -135,3 +81,106 @@ tr:hover{
 #sellerText {
     text-align: center;
 }
+
+.fontBigger {
+    font-size: 19px;
+}
+
+#AboutUsTitleText {
+    text-align: center;
+    color: rgb(147, 97, 43);
+}
+#AboutUsText {
+    text-align: center;
+    color: rgb(147, 97, 43);
+    font-family: 'Fredoka One', cursive;
+}
+#graphCanvas {
+    color:#EAF0CE;
+    background-color: rgb(180, 224, 231);
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+#graphText{
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    float: left;
+    position: relative;
+    left: -80px;
+    bottom: -90px;
+    transform: rotate(-90deg);
+      padding: 5px;
+}
+
+#graphBox {
+    margin-left: 50px;
+}
+
+#qback{
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#qCenter {
+    padding-top: 50mm;
+    padding-bottom: 50mm;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.th1{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
+    background-size: cover;
+    margin-bottom: -10mm;
+    display: inline-block;
+    position: absolute;
+    padding-top: 10mm;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    height: 100px;
+    width: 100px;
+ }
+ /* .th1:hover{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
+    color: black;
+ } */
+.th2{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
+    background-size: cover;
+    margin-bottom: -10mm;
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 10mm;
+    text-align: center;
+    color: black;
+    height: 100px;
+    width: 100px;
+ }
+ /* .th2:hover{
+    background-image: url("../Images/Ice\ Cream\ Scoops/strawberry.png");
+    color:#00ffff;
+} */
+.th3{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Vanilla.png");
+    background-size: cover;
+    margin-bottom: -10mm;
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 10mm;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+/* .th3:hover{
+    background-image: url("../Images/Ice\ Cream\ Scoops/Rocky.png");
+    color: white;
+ } */
