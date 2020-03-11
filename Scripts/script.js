@@ -48,3 +48,13 @@ $(document).ready(() => {
     
 });
 
+var KEYCODE_I = 73;
+
+function handleIPress(evt) {
+    var tasd = evt.keyCode;
+    if(evt.keyCode === KEYCODE_I) {
+        alert("We all scream for ice cream!");
+    }
+}
+
+document.onkeydown = handleIPress;
