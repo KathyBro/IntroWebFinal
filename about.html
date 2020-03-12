@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
 
-    <link href="style.css" rel="stylesheet">
-    <script src='Scripts/aboutscript.js'></script>
+    <link href='../CSS/style.css' rel='stylesheet'/>
+    <script src='../Scripts/script.js'></script>
 </head>
 <body>
     <div id='center'>
         <div id='logoDiv'>
-            <img src='Images/CompanyLogo.PNG' id='logo'/>
+            <img src='../Images/CompanyLogo.PNG' id='logo'/>
         </div>
     
         <nav id='topNav'>
@@ -42,13 +43,21 @@
         </div>
         </div>
         <div id='graphCanvas'>
-        <div class='graphA' id='graphText'>%Of Satisfied Customers</div>
+        <div class='graphA' id='graphText'>#Of Satisfied Customers</div>
+        <div class='graphA' id="baskinrobbins">50%</div>
+        <div class='graphA' id="quickbowls">97%</div>
+        <div class='graphA' id="coldStone">75%</div>
+        <div class='graphA' id="benjerry">70%</div>
+        
         <div class='graphA' id='graphBox'>
             <canvas id='barGraph' width="860px" height="500px" style="border:1px solid #000000;"> 
+                
+
+                
             
             
             </canvas>
-            <p id='chains'>Baskin-Robbins-----------------quIck-bowls------------------ColdStone--------------------Ben&Jerry's</p>
+            <p id='chains'>Baskin-Robbins---------------------quIck-bowls------------------------ColdStone----------------------------------Ben&Jerry's</p>
             </div id='graphCanvas'> 
           
             <script src='aboutscript.js'></script>
